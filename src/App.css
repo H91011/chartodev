@@ -64,5 +64,11 @@
 .detailList{
   text-align: initial;
   list-style: none;
-  font-size: smaller;
+
+}
+
+.detailList li {
+  padding-top: 10px;
+  font-size: small;
+
 }
