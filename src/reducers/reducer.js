@@ -5,7 +5,8 @@ let initialState = {
         "accountType",
         "displayName",
         "role"
-    ]
+    ],
+    selectedIndex: -1
 }
 
 export default function (currentState = initialState, action) {
@@ -15,6 +16,11 @@ export default function (currentState = initialState, action) {
             return {
                 ...currentState,
                 data: action.data
+            }
+        case "SET_SELECT":
+            return {
+                ...currentState,
+                selectedIndex: action.selectedIndex
             }
         default: return currentState
 

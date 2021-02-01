@@ -31,7 +31,8 @@ export default function () {
                         return <TableRow
                             rowstyle={style}
                             key={index}
-                            id={index}
+                            id={item.id}
+                            index={index}
                             data={[
                                 accountId,
                                 accountType,

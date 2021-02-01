@@ -15,8 +15,18 @@
 
 .hoverEffect:hover{
 
-  background-color:gray;
+  background-color:rgb(119, 134, 199);
   cursor: pointer;
+  color:white;
+}
+
+.oddrow {
+  background-color: #ffffff;
+}
+
+.evenrow{
+  background-color: #ebeef2;
+
 }
 
 .table tbody tr td  {
@@ -25,23 +35,34 @@
   font-size: 16px;
   padding-top: 5px;
   padding-bottom: 5px;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 .table thead tr td  {
   padding-left: 40px;
   padding-right: 40px;
-  background-color: rgb(229, 237, 238);
+  background-color: rgb(222, 232, 248);
   font-size: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #825a78;
 
 }
 
-.oddrow {
-  background-color: snow;
+
+.recharts-label {
+  font-size: 8px;
 }
 
-.evenrow{
-  background-color: tan;
+.recharts-legend-item-text{
+  font-size: 8px;
+}
 
+.detailList{
+  text-align: initial;
+  list-style: none;
+  font-size: smaller;
 }
